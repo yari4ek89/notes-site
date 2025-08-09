@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Mozilla Headline', cursive;
+    background-color: #ffdd6e;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: #dcff6d;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.container header {
+    background-color: #fffda0;
+    min-width: 100%;
+    justify-items: center;
+    border-radius: 60px;
+    font-size: larger;
+    color: chocolate;
+}
+.notes-management {
+    display: flex;
+    flex-direction: column;
+    background-color: #a0ff9f;
+    padding-left: 25px;
+    font-size: 3rem;
+    max-width: 100%;
+}
+.notes-management input {
+    min-height: 3rem;
+    max-width: 100%;
+    margin: 0.5rem;
+    font-size: larger;
+}
+.notes-management textarea {
+    min-width: 35%;
+    resize: none;
+    margin: auto;
+}
+.notes-management label {
+    align-self: flex-start;
+}
+.notes-management button {
+   min-height: 2rem;
+}
+.notes-management .notes-counter {
+    font-size: small;
+}
+.notes {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    background-color: #a0ff9f;
+}
+.note {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    background-color: beige;
+}
+.note input {
+    text-align: center;
+}
+.note button {
+    min-height: 2rem;
+    max-width: 25%;
+    align-self: center;
+}
+.input-found {
+    background-color: yellow;
+}

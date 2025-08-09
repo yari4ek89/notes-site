@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mozilla+Headline:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Notes Site</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h2>Notes Site</h2>
+        </header>
+        <main>
+            <div class="notes-management">
+                <form>
+                    <label>Caption: <input type="text" class="caption-input" minlength="1" placeholder="Enter a caption..."></label>
+                    <label>Description: <textarea minlength="1" class="description-input" maxlength="100">Enter the description...</textarea></label>
+                    <br>
+                    <p class="notes-counter">Notes counter: </p>
+                    <button class="add-note">ADD NOTE</button>
+                </form>
+            </div>
+            <div class="search">
+                <input type="text" class="search-input" placeholder="Enter a search term...">
+            </div>
+            <div class="notes">
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
