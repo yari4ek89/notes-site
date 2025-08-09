@@ -27,7 +27,7 @@ This project was created as a practice for working with the DOM, `localStorage`,
 2. Open index.html in your browser.
 ## 🌐 Live Demo
 You can view the live version here:
-
+https://yari4ek89.github.io/notes-site/
 
 ## 📝 Project Purpose
 This is a learning project to:
