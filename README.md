@@ -23,7 +23,7 @@ This project was created as a practice for working with the DOM, `localStorage`,
 ## 📦 Installation & Usage
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/notes-site.git
+   git clone https://github.com/yari4ek89/notes-site.git
 2. Open index.html in your browser.
 ## 🌐 Live Demo
 You can view the live version here:
